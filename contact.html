@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Formulaire pour nous contacter">
+        <link rel="stylesheet" href="fichier1.css">
+        <title>Nous contacter</title>
+    </head>
+    <body class="contacter">
+    <h1 class="size">Veuillez soumettre le formulaire ci-dessous pour nous contacter</h1>
+    <form action="contact.html">
+        <fieldset>
+            <legend>Formulaire de contact</legend>
+            <div>
+                <label for="identity">Votre nom et prénoms</label>
+                <input type="text" name="name" id="identity" required>
+            </div>
+            <div>
+                <label>Veuillez définir votre sexe</label>
+            </div>
+            <div>
+                <label for="sexeinput">Féminin</label>
+                <input type="radio" name="sexe" id="sexeinput">
+            </div>  
+            <div> 
+                <label for="sexeinput">Masculin</label>
+                <input type="radio" name="sexe" id="sexeinput">
+            </div>
+            <div>
+                <label for="emailinput">Votre adresse mail</label>
+                <input type="text" name="email" id="emailinput" required>
+            </div>
+            <div>
+                <label for="telephone">Votre numéro</label>
+                <input type="number" name="numero" id="telephone" placeholder="229XXXXXXXX">
+            </div>
+            <div>
+                <label for="code">Votre mot de passe</label>
+                <input type="password" name="security" id="code" required>
+            </div>
+            <div>
+                <label for="messageinput">Votre message</label>
+                <textarea name="message" id="messageinput" required placeholder="Votre texte"></textarea>
+            </div>
+            <div>
+                <label for="fileinput">Ajoutez une pièce jointe</label>
+            </div>
+            <div>
+                <input type="file" name="piecejointe" id="fileinput">
+            </div>
+            <div>
+                <label><input type="checkbox" required>J'accepte les conditions générales d'utilisation</label>
+            </div>
+                <input type="submit" value="Soumettre">
+                <input type="reset" value="Tout effacer">
+        </fieldset>  
+    </form>
+    <h1 class="test">Testimony</h1>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+.accueil{
+    color: rgb(9, 126, 9);
+    font-weight: lighter;
+}
+.title{
+    color: rgb(0 0 255);
+}
+.test{
+    color: rgb(255 0 0);
+}
+.size{
+    color: brown;
+    font-size: 50 px;
+}
+body{
+    font-family:'Macondo', cursive, serif;
+    text-align: justify;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgb(9, 126, 9);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.navigation{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+   
+
+}
+
+.content{
+    background-color: rgb(15, 19, 19);
+}
+
+.for_other{
+    background-image: url(img/plat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bordure{
+    border-width: 200 px;
+    border-style: double;
+    border-color: black;
+    border-radius: 100 px;
+}
+.appreciation{
+    background-image: url(img/appreciation.jpg);
+    background-size: cover;
+}
+.contacter{
+    background-image:url(img/contacter.png);
+    background-size: cover;
+}
